@@ -1,0 +1,172 @@
+body{
+    background: hsl(204, 43%, 93%);
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.main
+{
+    margin: 5rem 2rem;
+    display: grid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px  5px  0;
+    -moz-border-radius: 5px  5px  0;
+    -ms-border-radius: 5px  5px  0;
+    -o-border-radius: 5px  5px  0;
+}
+
+.community
+{
+    background: hsl(0, 0%, 100%);
+    border-radius: 5px 5px 0 0 ;
+    -webkit-border-radius: 5px 5px 0 0 ;
+    -moz-border-radius: 5px 5px 0 0 ;
+    -ms-border-radius: 5px 5px 0 0 ;
+    -o-border-radius: 5px 5px 0 0 ;
+}
+
+.community h1
+{
+    color: hsl(179, 54%, 50%);
+}
+
+.community h2
+{
+    color: hsl(71, 73%, 54%);
+}
+
+.community p
+{
+    color: hsl(218, 22%, 67%);
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+
+.subscription
+{
+    background: hsl(179, 62%, 43%);
+}
+
+.subscription button
+{
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    background: hsl(71, 73%, 54%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    box-shadow: -1px 8px 18px 1px hsl(179, 67%, 36%);
+}
+
+.why--us
+{
+    background-color: hsl(179, 54%, 50%);
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+}
+
+.subscription,
+.why--us
+{
+    color: hsl(0, 0%, 100%);
+}
+
+.community,
+.subscription,
+.why--us
+{
+    padding: 2rem 1rem;
+}
+
+.community h1,
+.subscription h1,
+.why--us h1
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.community h2,
+.subscription h2,
+.why--us h2
+{
+    font-size: 1.2rem;
+}
+
+.subscription--rate
+{
+    position: relative;
+
+
+}
+.subscription--rate__desc1
+{
+    font-size: 2rem;
+}
+
+.subscription--rate__desc2
+{
+    position: absolute;
+    font-size: 1rem;
+    color: hsl(179, 54%, 50%);
+    margin-left: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.why--us p
+{
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    font-size: medium;
+}
+
+@media(min-width:40rem)
+{
+    .main
+    {
+        border-top: solid 2px hsl(0, 0%, 100%);
+        display: grid;
+        grid-template-columns: repeat(3, 50%);
+        margin: 10% 30%;
+    }
+
+    .community
+    {
+        grid-column: 1 / 3;
+    }
+
+    .subscription
+    {
+        grid-column: 1 / 2;
+        border-radius: 0 0 0 5px;
+        -webkit-border-radius: 0 0 0 5px;
+        -moz-border-radius: 0 0 0 5px;
+        -ms-border-radius: 0 0 0 5px;
+        -o-border-radius: 0 0 0 5px;
+}
+
+    .why--us
+    {
+        border-radius: 0 0 5px 0;
+        -webkit-border-radius: 0 0 5px 0;
+        -moz-border-radius: 0 0 5px 0;
+        -ms-border-radius: 0 0 5px 0;
+        -o-border-radius: 0 0 5px 0;
+}
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
